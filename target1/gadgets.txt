@@ -1,0 +1,55 @@
+<addval_273>:
+movq    %rax, %rdi
+ret
+
+<setval_426>:
+movq    %rax, %rdi
+nop
+ret
+
+<getval_481>:
+movl    %eax, %edx
+nop
+ret
+
+<addval_190>:
+movq    %rsp, %rax
+ret
+
+<addval_436>:
+movl    %ecx, %esi
+nop
+nop
+ret
+
+<addval_187>:
+movl    %ecx, %esi
+cmpb    %al, %al // nop
+ret
+
+<getval_159>:
+movl    %edx, %ecx
+cmpb    %cl,%cl // nop
+ret
+
+<addval_487>:
+movl    %eax, %edx
+testb   %al, %al // nop
+ret
+
+<getval_311>:
+movl    %edx, %ecx
+orb     %bl, %bl // nop
+ret
+
+<addval_358>:
+movl    %esp, %eax
+nop
+ret
+
+<setval_350>:
+movl    %esp, %eax
+nop
+ret
+
+
